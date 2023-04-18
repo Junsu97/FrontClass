@@ -1,0 +1,104 @@
+#main{
+            width: 650px;
+            margin: 0px auto;
+            padding: 10px;
+        }
+        .title{
+            text-align: center;
+            font-weight: bold;
+            background-color: skyblue;
+            height: 60px;
+            line-height: 60px;
+        }
+        #cont1{
+            width: 600px;
+            height: 350px;
+            margin: 15px;
+            padding: 10px;
+            border: 1px dotted red;
+            float: left;
+        }
+        #cont2{
+            width: 600px;
+            height: 300px;
+            margin: 15px;
+            padding: 10px;
+            border: 1px dotted blue;
+            float: left;
+        }
+        #cont3{
+            width: 600px;
+            height: 280px;
+            margin: 15px;
+            padding: 10px;
+            border: 1px dotted green;
+            float: left;
+        }
+        #cont4{
+            width: 600px;
+            height: 200px;
+            margin: 15px;
+            padding: 10px;
+            border: 1px dotted orange;
+            float: left;
+        }
+        #count5{
+            text-align: center;
+            clear: both;
+            width: 900px;
+            height: 70px;
+            background-color: lemonchiffon;
+        }
+        #cont1:hover{
+            background-color: azure;
+        }
+        #cont2:hover{
+            background-color: azure;
+        }
+        #cont3:hover{
+            background-color: azure;
+        }
+        #cont4:hover{
+            background-color: azure;
+        }
+    
+        nav{
+            width: 650px;
+           
+            margin: 0 auto;
+            
+        }
+        nav ul{
+            list-style-type: none;
+        }
+        nav ul li{
+            display: inline;
+            margin: 20px;
+        }
+        nav ul li a{
+            text-decoration:overline;
+            color: black;
+        }
+        ul {
+            list-style-type:decimal;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        .lbs{
+            position:absolute;
+            top 0px;
+            left: 0px;
+        }
+        .lbs2{
+            position: absolute;
+            top 0px;
+            right: 0px;
+        }
+        .lbs3{
+            font-size:20pt;
+            position: fixed;
+            bottom: 25px;
+            right: 0px;    
+        }
