@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>배경관련 속성</title>
+    <style type="text/css">
+        h3{color: red; background-color: #90ff90;}
+        h3:after{content:"(ⓒsblim)"; font-size:10pt; background-color: white;}
+        #first{background-image: url(img/flower.jpg); background-repeat: repeat-x;}
+        #second{background-image: url(img/flower.jpg);}
+        #third{background-image: url(img/flower.jpg); background-repeat: no-repeat;background-position: center bottom;}
+        li{font-weight: bold}
+    </style>
+</head>
+<body>
+    <h3> CSS 배경관련 속성</h3>
+    <table border="1">
+        <tr>
+            <td id="first"> 배경 이미지
+                <ul>
+                    <li>url(파일경로)</li>
+                    <li>background-repeat :<br>
+                    => repeat-x</li>
+                </ul></td>
+            <td id="second"> 배경 이미지
+                <ul>
+                    <li>url(파일경로)</li>
+                    <li>background-repeat :<br>
+                    => repeat</li>
+                </ul></td>
+            <td id="third"> 배경 이미지
+                <ul>
+                    <li>background-repeat :<br>
+                    => no-repeat,</li>
+                    <li>backgound-position : <br>
+                    => center bottom</li>
+                </ul></td>
+        </tr>
+    </table>
+</body>
+</html>
