@@ -54,9 +54,10 @@ footer #SNS a { text-decoration: none; }
 
 .booklist ul li { font-size: 12px; list-style-type: none; }
 
-.musiclist ul li { font-size: 12px; font-weight: bold;
-
-
+.musiclist ul li {
+  font-size: 12px;
+  font-weight: bold;
+  text-shadow: 0 1px 0 rgb(255,255,255,0.5);
 }
 
 .booklist ul li img { border: solid; border-color: lightgray; border-width: 1px; }
