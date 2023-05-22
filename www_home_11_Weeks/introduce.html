@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <script type="text/javascript">
+        var name = "한준수"
+        var coment = "안녕하세요. 빅데이터과 1학년 한준수입니다."
+        document.write(name + "<br/>" + coment);
+        document.write("<hr/>");
+        var cm = parseFloat(prompt("길이를 입력하세요 (cm)", "예) 5"));
+        if (!typeof(cm) == NaN) {
+            var inch = parseFloat(cm / 2.54);
+            var feet = parseFloat(inch / 12);
+            alert(cm + "cm" + "는 " + "\n" + inch + "inch" + "\n" + feet + "feet");
+        }else{
+            alert("잘못된 형식입니다.");
+        }
+    </script>
+</body></html>
