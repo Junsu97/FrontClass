@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Date() 객체와 조건문 활용</h1>
+    <script type="text/javascript">
+        var today = new Date();
+        var y = today.getFullYear();
+        var m = today.getMonth() + 1; // 0부터 시작하기 때문에 1을 더해줘야 함
+        var d = today.getDate();
+        var hur = today.getHours();
+        var apm;
+
+        document.write(" 오늘 날짜  : " + y + "년" + m + "월" + d + "일" + "<br>");
+
+        if(hur < 12){
+            apm = "오전";
+        }else{
+            apm = "오후";
+        }
+        document.write(amp + " " + hur );
+    </script>
+</body>
+</html>

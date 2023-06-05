@@ -8,5 +8,23 @@
 </head>
 <body>
     <h1>사용자 정의 함수 활용</h1>
+    <script type="text/javascript">
+
+        function add(a,b){
+            return (a+b);
+        }
+
+        function sub(a,b){
+            return (a-b);
+        }
+
+        res1 = add(10,30);
+        res2 = add(10,"30");
+
+        document.write("res1의 결과 = " + res1 + "<br>");
+        document.write("res2의 결과 = " + res2 + "<br>");
+        document.write("두 숫자의 빼기 결과2 : " + sub(10,20) + "<br>");
+        document.write("두 숫자의 빼기 결과2 : " + sub(10,"20") + "<br>");
+    </script>
 </body>
 </html>

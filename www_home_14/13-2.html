@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>13-2</title>
+</head>
+<body>
+    <h1>13-2 과제</h1>
+    <script type="text/javascript">
+        var result;
+        var choice = prompt("요일을 입력하세요.\n", "");
+        switch(choice){
+            case "월요일":
+            case "Monday":
+                result="월요일"
+                break;
+            case "Tuesday":
+            case "화요일":
+                result = "화요일";
+                break;
+            case "Wednesday":
+            case "수요일":
+                result = "수요일";
+                break;
+            case "Thursday":
+            case "목요일":
+                result = "목요일";
+                break;
+            case "Friday":
+            case "금요일":
+                result = "금요일";
+                break;
+            case "Saturday":
+            case "토요일":
+                result = "토요일";
+                break;
+            case "Sunday":
+            case "일요일":
+                result = "일요일";
+                break;
+            default :
+                 alert(" 요일을 다시 입력해주세요 ");
+                 result = "";
+        }
+        document.write(result);
+
+
+//        if(choice == "월요일" || choice == "Monday"){
+//            result="월요일"
+//                break;
+//        }else if(choice == "화요일" || choice == "Tuesday"){
+//             result = "화요일";
+//             break;
+//        }else if(choice == "수요일" || choice == "Wednesday"){
+//            result = "수요일";
+//                break;
+//        }else if(choice == "목요일" || choice == "Thursday"){
+//              result = "목요일";
+//                break;
+//        }else if(choice == "금요일" || choice == "Friday"){
+//            result = "금요일";
+//                break;
+//        }else if(choice == "토요일" || choice == "Saturday"){
+//            result = "토요일";
+//                break;
+//        }else if(choice == "일요일" || choice == "Sunday"){
+//             result = "일요일";
+//             break;
+//        }else{
+//            alert(" 요일을 다시 입력해주세요 ");
+//                 result = "";
+//        }
+//        document.write(result);
+
+    </script>
+</body>
+</html>
