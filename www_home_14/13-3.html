@@ -12,10 +12,34 @@
         var choice = prompt("숫자를 입력하세요.\n","");
 
         if(isNaN(choice)){
+            // 입력된 값이 숫자가 아니라면
             alert("숫자를 입력해주세요.");
         }else{
             a = choice;
 
+            choice = prompt("연산 기호를 입력하세요.\n","");
+            switch(choice){
+                case "+":
+                case "-":
+                case "*":
+                case "/":
+                    oper = choice;
+                    break;
+                default :
+                    alert("연산기호를 입력 해주세요.");
+                    oper = "";
+            }
+
+            choice = prompt("숫자를 입력해주세요.\n","");
+            if(isNaN(choice)){
+                // 입력된 값이 숫자가 아니라면
+                alert("숫자를 입력해주세요.");
+            }else{
+                b = choice;
+                // 문자열로 받아온 연산기호를 통해 연산하기 위해 eval() 함수 사용
+                result = eval(a+oper+b);
+                document.write(a + oper + b + "=" + result);
+            }
         }
     </script>
 </body>
