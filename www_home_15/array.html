@@ -10,14 +10,16 @@
 
 <body>
     <script type="text/javascript">
-        var arr = new Array("one", 2, "3", 4, "five");
-        // arr의 내용: ["one", 2, "3", 4, "five"]
+        var std = new Object();
+        std.name="한준수";
+        std.id="2320110214";
+        std.grade="1학년";
 
+        delete std.id;
 
-        arr[100] = 100;
-        document.write("arr[" + 100 + "]: " + arr[100] + "<br/>");
-        document.write("length of array: " + arr.length + "<br/>");
-
+        for(var i in std){
+            alert(i + " : " + std[i]);
+        }
     </script>
 </body>
 
