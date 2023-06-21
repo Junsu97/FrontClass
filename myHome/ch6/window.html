@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>윈도우 객체 예제</title>
+</head>
+<body>
+    <script type="text/javascipt">
+        var win;
+        function open_window(){
+            var url = prompt("원하는 URL 주소를 입력하시오");
+            if(url) win = window.open(url);
+        }
+    </script>
+
+    <button onclick="open_window();">Open a page with new window</button>
+    <button onclick="win.close();">Close the window</button>
+</body>
+</html>

@@ -1,0 +1,13 @@
+*{
+             /*구글 Noto Sans 폰트*/
+            font-family: 'Noto Sans KR', sans-serif;
+            /*목록에 점 없애기*/
+            list-style: none;
+            /*  바로가기에 밑줄 및 색깔 없앰 */
+            text-decoration:none;
+            /* 테이블 붙임*/
+            border-collapse: collapse;
+            margin: 0px;
+            padding: 0px;
+            color: #000;
+}

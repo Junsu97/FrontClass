@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>네비게이터 객체 예제</title>
+</head>
+<body>
+    <form>
+        <input type="button" value="Check Navigator appName"
+            onclick="document.getElementById('appName').value=navigator.appName;"/>
+        <br/>
+        <input id="appName" type="text" size="110"/>
+        <br/>
+        <input type="button" value="Check Navigator appVersion"
+            onclick="document.getElementById('appVersion').value=navigator.appVersion;"/>
+        <br/>
+        <input type="text" id="appVersion" size="110"/>
+        <br/>
+        <input type="button" value="Check Navigator userAgent"
+            onclick="document.getElementById('userAgent').value=navigator.userAgent;"/>
+        <br/>
+        <input type="userAgent" type="text" size="110">
+    </form>
+</body>
+</html>

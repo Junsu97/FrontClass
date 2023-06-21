@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>다양한 입력 폼 예제</title>
+</head>
+<body>
+    <h3>다양한 입력 폼</h3>
+    <form method = "get" action="form_app.js">
+        성명 : <input type="text" name="person"/> <br>
+        성별 : <label for="male"> 남성 </label>
+        <input type="radio" id="male" name = "gender" value="male"/>
+      <label for="female"> 여성 </label>
+      <input type="radio" id="female" name="gender" value="female"/><br>
+        직업 : <select name="job" size="1">
+            <option>학생</option>
+            <option>공무원</option>
+            <option>회사원</option>
+            <option>기타</option>
+        </select>
+
+        <p>
+            구입 희망분야(복수 선택 가능) <br>
+            - 분야 : <input type="checkbox" name="books" value="computer"/>컴퓨터
+            <input type="checkbox" name="books" value="economy"/>경제
+            <input type="checkbox" name="books" value="common">상식 <br>
+
+            비고 : <br>
+                <textarea name="comments"  rows="4" cols="40"></textarea>
+        </p>
+        <hr>
+        <input type="submit" value="신청"/>
+        <input type="reset" value="취소"/>
+    </form>
+</body>
+</html>
