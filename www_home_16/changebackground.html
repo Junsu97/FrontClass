@@ -26,11 +26,21 @@
 </div>
 
 <script type="text/javascript">
-   
+   function changeC(id,color){
+         document.getElementById(id).style.background=color;
+   }
 </script>
+outbox:
+<button onclick="changeC('outerBox','red')">빨간색</button>
+<button onclick="changeC('outerBox','blue')">파란색</button>
+<button onclick="changeC('outerBox','green')">초록색</button>
 
+<br>
 
-
+innerbox:
+<button onclick="changeC('innerBox','red')">빨간색</button>
+<button onclick="changeC('innerBox','blue')">파란색</button>
+<button onclick="changeC('innerBox','green')">초록색</button>
 
 
 
